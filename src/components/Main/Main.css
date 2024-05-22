@@ -176,6 +176,21 @@ background-position: 800px 0px;
 .result-data p{
 font-size: 17px;
 font-weight: 300;
-line-height:
-1.8;
+line-height:1.8;
+}
+@media (max-width:600px) {
+    .mainbottom input{
+    flex: none;
+    width: 150px;
+    }
+    .mainbottom img{
+    width: 20px;
+    }
+    .searchbox{
+    padding: 5px 10px;
+    
+    }
+    .searchbox div{
+    gap: 5px;
+    }
 }

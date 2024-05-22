@@ -31,6 +31,7 @@
 .sidebar .recent{
     display: flex;
     flex-direction: column;
+    animation: fadeIn 1.5s;
 }
 .sidebar .recenttitle {
     margin-top: 30px;
@@ -60,4 +61,9 @@
     display: inline-flex;
     cursor: pointer;
     gap:10px;
+}
+@media (max-width:600px) {
+    .sidebar{
+    display: none;
+    }
 }
