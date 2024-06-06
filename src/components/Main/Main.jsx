@@ -20,7 +20,7 @@ const Main = () => {
         ?<>
             <div className="greet">
             <p><span>Hello Arya</span></p>
-            <p>How can I assist you tday?</p>
+            <p>How can I assist you today?</p>
         </div>
         <div className="cards">
             <div className="card">
